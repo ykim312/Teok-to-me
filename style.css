@@ -188,6 +188,20 @@ a{
 
 #stacked, #horizontal {
     display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+#text {
+    margin: 40px;
+    left: 20px;
+
+}
+#text1 {
+    margin: 10px;
+}
+#horizontal {
+    margin: 45px;
+
 }
 
 #stacked img {
