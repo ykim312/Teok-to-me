@@ -1,3 +1,4 @@
+
 html, body {
     margin: 0;
     width: 100vw;
@@ -176,7 +177,23 @@ a{
     flex-direction: column;
     padding-right: 30px;
 }
+#stacked, #horizontal {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+#text {
+    margin: 40px;
+    left: 20px;
 
+}
+#text1 {
+    margin: 10px;
+}
+#horizontal {
+    margin: 45px;
+
+}
 #wordmark {
     display: flex;
     justify-content: center;
@@ -184,10 +201,6 @@ a{
     flex-direction: row;
     width: 30%;
     padding: 40px;
-}
-
-#stacked, #horizontal {
-    display: flex;
 }
 
 #stacked img {
@@ -250,7 +263,7 @@ footer{
 }
 
 
-#colour img, #typography img, #iconography img, #graphics img, #type_rules img {
+#colour img, #typography img, #graphics img, #type_rules img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -404,10 +417,24 @@ h1 {
 
 
 #icon_left {
-    display: flex;
+    flex-direction: row;
     width: 30%;
     margin-left: 60px;
     margin-right: 100px;
+}
+
+#iconography img {
+    width: 20%;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 5px;
+}
+
+#iconography #general_icons img {
+    width: 90%;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 5px;
 }
 
 #icon_right {
@@ -435,7 +462,9 @@ h1 {
 }
 
 
-/* Page 3 */
+
+/* Reference html */
+
 
 #content {
     width: 800px;
@@ -444,3 +473,11 @@ h1 {
     display: flex;
     align-items: center;
   }
+
+#ref_journal {
+    margin: 30px;
+}
+
+#ref {
+    color: black;
+}
