@@ -276,13 +276,20 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     padding: 40px;
     margin-right: 20px;
+    text-align: center;
 }
 
 #visual_examples p {
     text-align: center;
 }
+
+#hamburger_menu img {
+    height:280px;
+}
+
 
 h1 {
     font-size: 32px;
@@ -320,18 +327,81 @@ h1 {
     width:60%;
 }
 
-#type_rules {
-    display: flex;
+#font_title {
+    display:flex;
     flex-direction: row;
-    width: 60%;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    padding-left: 200px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-
 }
+
+#font_cont,
+#font_cont2 {
+    display:flex;
+    flex-direction: row;
+    margin-left:50px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+#font_cont2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+}
+
+#typeface > p,
+#textsize > p {
+    font-size:38px;
+}
+
+#typeface,
+#font_title,
+#textsize_title {
+    width:500px;
+}
+
+#textsize {
+	display: grid;
+	grid-template-rows: 80px 80px 80px;
+	grid-template-columns: 150px 150px;
+    align-items: center;
+    width:500px;
+}
+
+#heading1,
+#heading2,
+#heading3,
+#heading4,
+#heading5 {
+    width:350px;
+}
+
+#font_des {
+    width:500px;
+}
+
+#heading1 p {
+    font-size: 30px;
+    vertical-align: text-top;
+}
+
+#heading2 p {
+    font-size: 24px;
+    vertical-align: text-top;
+}
+
+#heading3 p {
+    font-size: 18px;
+    vertical-align: text-top;
+}
+
+#heading4 p {
+    font-size: 14px;
+    vertical-align: text-top;
+}
+
+#heading5 p {
+    font-size: 30px;
+    vertical-align: text-top;
+}
+
 
 #icon_left {
     display: flex;
