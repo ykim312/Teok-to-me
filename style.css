@@ -1,10 +1,11 @@
+
 html, body {
     margin: 0;
     width: 100vw;
     max-width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-    background-color: #f7f1e2;
+    background-color: #faf6ea;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -176,16 +177,6 @@ a{
     flex-direction: column;
     padding-right: 30px;
 }
-
-#wordmark {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: row;
-    width: 30%;
-    padding: 40px;
-}
-
 #stacked, #horizontal {
     display: flex;
     flex-direction: column;
@@ -202,6 +193,14 @@ a{
 #horizontal {
     margin: 45px;
 
+}
+#wordmark {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 30%;
+    padding: 40px;
 }
 
 #stacked img {
@@ -264,7 +263,7 @@ footer{
 }
 
 
-#colour img, #typography img, #iconography img, #graphics img, #type_rules img {
+#colour img, #typography img, #graphics img, #type_rules img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -290,13 +289,20 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     padding: 40px;
     margin-right: 20px;
+    text-align: center;
 }
 
 #visual_examples p {
     text-align: center;
 }
+
+#hamburger_menu img {
+    height:280px;
+}
+
 
 h1 {
     font-size: 32px;
@@ -334,24 +340,94 @@ h1 {
     width:60%;
 }
 
-#type_rules {
-    display: flex;
+#font_title {
+    display:flex;
     flex-direction: row;
-    width: 60%;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    padding-left: 200px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-
 }
 
+#font_cont,
+#font_cont2 {
+    display:flex;
+    flex-direction: row;
+    margin-left:50px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+#font_cont2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+}
+
+#typeface > p,
+#textsize > p {
+    font-size:38px;
+}
+
+#typeface,
+#font_title,
+#textsize_title {
+    width:500px;
+}
+
+#textsize {
+	display: grid;
+	grid-template-rows: 80px 80px 80px;
+	grid-template-columns: 150px 150px;
+    align-items: center;
+    width:500px;
+}
+
+#heading1,
+#heading2,
+#heading3,
+#heading4,
+#heading5 {
+    width:350px;
+}
+
+#font_des {
+    width:500px;
+}
+
+#heading1 p {
+    font-size: 30px;
+    vertical-align: text-top;
+}
+
+#heading2 p {
+    font-size: 24px;
+    vertical-align: text-top;
+}
+
+#heading3 p {
+    font-size: 18px;
+    vertical-align: text-top;
+}
+
+#heading4 p {
+    font-size: 14px;
+    vertical-align: text-top;
+}
+
+#heading5 p {
+    font-size: 30px;
+    vertical-align: text-top;
+}
+
+
 #icon_left {
-    display: flex;
+    flex-direction: row;
     width: 30%;
     margin-left: 60px;
     margin-right: 100px;
+}
+
+#iconography img {
+    width: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 5px;
 }
 
 #icon_right {
@@ -388,3 +464,11 @@ h1 {
     display: flex;
     align-items: center;
   }
+
+#ref_journal {
+    margin: 30px;
+}
+
+#ref {
+    color: black;
+}
